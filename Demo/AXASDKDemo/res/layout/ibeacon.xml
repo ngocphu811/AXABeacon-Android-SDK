@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFf">
+
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:background="#ff45dbfc">
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="AXAET"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="25dp" />
+		<!-- <ImageButton
+		    android:id="@+id/iv_company" 
+		    android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/lianxi"
+		    />
+ -->
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/bt_so"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/aaa" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bt_so"
+            android:layout_centerHorizontal="true"
+            android:text="@string/clear_list"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ff788890" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:id="@+id/lin_device"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

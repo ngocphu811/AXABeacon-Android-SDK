@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+            android:background="@drawable/lin_but"
+        android:clipChildren="true" >
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/touxiang1" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="5.37"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="name:"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+
+                <TextView
+                    android:id="@+id/device_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:text="1"
+                    android:textColor="#000"
+                    android:textSize="12dp" />
+                
+                
+                
+                 
+                 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="uuid:"
+                        android:textColor="#000"
+                        android:textSize="12dp"/>
+
+                    <TextView
+                        android:id="@+id/device_uuid"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="1"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/TextView03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"                       
+                        android:textColor="#000"
+                        android:textSize="12dp"       
+                        android:text="MajorId:" />
+
+                    <TextView
+                        android:id="@+id/text_MajorId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="12dp"       
+                        android:text="1" />
+                    
+                     <TextView
+                        android:id="@+id/TextView04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"                       
+                        android:textColor="#000"
+                        android:textSize="12dp"       
+                        android:text="MinorId:" />
+
+                    <TextView
+                        android:id="@+id/text_MinorId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="12dp"       
+                        android:text="1" />
+
+                    
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="12dp"    
+                        android:layout_marginLeft="5dp"      
+                        android:text="RSSI:" />
+                    <TextView
+                        android:id="@+id/text_rssi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000"
+                        android:textSize="12dp"                        
+                        android:text="1" />
+
+                    <TextView
+                        android:id="@+id/TextView01"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Distance:"
+                        android:textColor="#000"
+                        android:textSize="12dp" />
+                    <TextView android:id="@+id/text_jl" 
+                        android:layout_width="wrap_content" 
+                        android:layout_height="wrap_content" 
+                        android:textColor="#000" 
+                        android:textSize="12dp" 
+                        android:text="1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/lin"
+        android:background="@drawable/gray" >
+
+    </RelativeLayout>
+
+</RelativeLayout>

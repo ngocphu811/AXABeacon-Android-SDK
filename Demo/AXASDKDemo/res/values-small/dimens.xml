@@ -1,0 +1,8 @@
+<resources>
+	<dimen name="company_size">20sp</dimen>
+	<dimen name="title1_size">15dp</dimen>
+	<dimen name="title2_size">9dp</dimen>
+	<dimen name="name_size">20sp</dimen>
+	
+	
+</resources>
